@@ -1,0 +1,83 @@
+/* === Lost & Found Login/Register Page Style === */
+
+* {
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #f3f6ff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+/* Center container */
+.login-container {
+    background-color: #fff;
+    padding: 40px;
+    border-radius: 16px;
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.1);
+    width: 360px;
+    text-align: center;
+}
+
+h2 {
+    color: #1e56a0;
+    font-size: 26px;
+    margin-bottom: 6px;
+}
+
+.subtitle {
+    color: #555;
+    font-size: 14px;
+    margin-bottom: 20px;
+}
+
+/* Form inputs */
+form input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border-radius: 10px;
+    border: 1px solid #ccc;
+    font-size: 15px;
+}
+
+/* Button */
+form button {
+    width: 100%;
+    padding: 10px;
+    background-color: #1e56a0;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+form button:hover {
+    background-color: #163172;
+}
+
+/* Error message */
+.error {
+    color: red;
+    font-size: 14px;
+    margin-top: 8px;
+}
+
+/* Register link */
+p a {
+    color: #1e56a0;
+    text-decoration: none;
+    font-weight: 500;
+}
+
+p a:hover {
+    text-decoration: underline;
+}
